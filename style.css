@@ -62,10 +62,33 @@ a.active {
   line-height: 2;
 }
 
-.about-section button {
+button {
   background-color: #2590f4;
   border: none;
   padding: 10px 30px;
   color: white;
   margin-top: 2rem;
+}
+
+/* join us styles  */
+
+.join-us {
+  padding: 60px;
+  background-repeat: no-repeat;
+  background-image: url("./images/join-us-bg.jpeg");
+  background-size: 50%;
+  background-position-x: 80%;
+  background-position-y: center;
+}
+.join-us .text {
+  width: 45%;
+  padding: 30px;
+}
+.join-us .text h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 1.2rem;
+}
+.join-us .text p {
+  margin-bottom: 1.2rem;
 }

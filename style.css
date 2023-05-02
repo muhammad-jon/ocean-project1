@@ -7,10 +7,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-h1 {
-  background-color: red;
-}
-
 header {
   height: 60px;
   /* background-color: red; */
@@ -27,4 +23,49 @@ header {
   color: black;
   text-decoration: none;
   padding: 1.5rem;
+}
+a.active {
+  color: #2590f4 !important;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* hero section styles */
+
+.hero {
+  padding: 80px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/bg.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.about-section {
+  width: 712px;
+  margin: 0 auto;
+  border: 20px solid #2590f4;
+  background-color: rgba(255, 255, 255, 0.4);
+
+  padding: 80px 30px;
+  text-align: center;
+  color: white;
+}
+.about-section h1 {
+  font-size: 48px;
+}
+.about-section p {
+  margin-top: 17px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.about-section button {
+  background-color: #2590f4;
+  border: none;
+  padding: 10px 30px;
+  color: white;
+  margin-top: 2rem;
 }

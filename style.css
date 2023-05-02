@@ -68,6 +68,7 @@ button {
   padding: 10px 30px;
   color: white;
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 /* join us styles  */
@@ -91,4 +92,60 @@ button {
 }
 .join-us .text p {
   margin-bottom: 1.2rem;
+}
+
+/* projects section styles  */
+.projects {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 50px 0;
+}
+.project-box {
+  background-color: red;
+  width: 370px;
+  height: 327px;
+}
+.projects-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc((1140px - (370px * 3)) / 2);
+}
+
+.project-box {
+  background-size: cover;
+}
+.project-box:nth-child(1) {
+  background-image: url("./images/project.jpeg");
+}
+.project-box:nth-child(2) {
+  background-image: url("./images/project.jpeg");
+}
+.project-box:nth-child(3) {
+  background-image: url("./images/project.jpeg");
+}
+.project-box:nth-child(4) {
+  background-image: url("./images/project.jpeg");
+}
+.project-box:nth-child(5) {
+  background-image: url("./images/project.jpeg");
+}
+.project-box:nth-child(6) {
+  background-image: url("./images/project.jpeg");
+}
+.project-box:nth-child(7) {
+  background-image: url("./images/project.jpeg");
+}
+.project-box:nth-child(8) {
+  background-image: url("./images/project.jpeg");
+}
+.project-box:nth-child(9) {
+  background-image: url("./images/project.jpeg");
+}
+
+.projects h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.projects p {
+  margin-bottom: 40px;
 }

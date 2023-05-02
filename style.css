@@ -149,3 +149,44 @@ button {
 .projects p {
   margin-bottom: 40px;
 }
+
+/* join us section second styles  */
+.join-us-second .container > div {
+  display: flex;
+  align-items: center;
+}
+.join-us-second .container > div > div {
+  flex-basis: 50%;
+}
+.join-us-image {
+  width: 570px;
+  height: 550px;
+  overflow: hidden;
+}
+
+.join-us-image img {
+  width: 100%;
+}
+
+.join-us-second .text {
+  padding: 30px;
+}
+.join-us-second .text h1 {
+  font-size: 48px;
+  margin-right: 90px;
+  line-height: 1.1;
+  margin-bottom: 1.8rem;
+}
+.join-us-second .text p {
+  line-height: 2;
+  margin-bottom: 1rem;
+}
+
+.join-us-image {
+  display: flex;
+  align-items: center;
+}
+
+.join-us-second {
+  padding: 50px 0;
+}

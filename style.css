@@ -259,3 +259,19 @@ button {
   color: white;
   font-size: 48px;
 }
+
+/* footer section styles 
+ */
+
+footer {
+  background-color: #333333;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+footer p:nth-child(1) {
+  margin-bottom: 60px;
+}
+footer a {
+  color: #65a3dd;
+}
